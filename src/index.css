@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-navy: #031565;
+  --gold: #ffe400;
+  --gold-title: #ffd429;
+  --white: #ffffff;
+  --black: #000000;
+  --font-vt323: 'VT323', monospace;
+  --font-helvetica: 'Helvetica Neue', 'Arial Narrow', Arial, sans-serif;
+  --font-helvetica-bold: 'Helvetica Neue', 'Arial Narrow', Arial, sans-serif;
+  --font-league: 'League Gothic', sans-serif;
+}
+
+html, body {
+  font-family: var(--font-helvetica);
+  background-color: #000;
+  color: var(--white);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0 16px;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+  background: transparent;
+}
+

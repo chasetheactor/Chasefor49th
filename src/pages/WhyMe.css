@@ -1,0 +1,88 @@
+.whyme {
+  padding: 24px 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.whyme-title {
+  font-family: var(--font-vt323);
+  font-size: 32px;
+  color: var(--gold-title);
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.whyme-section {
+  margin-bottom: 24px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.whyme-heading {
+  font-family: var(--font-helvetica-bold);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 22px;
+  color: var(--gold);
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.whyme-pillar {
+  font-family: var(--font-vt323);
+  font-size: 28px;
+  color: var(--gold);
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+}
+
+.whyme-text {
+  font-family: var(--font-helvetica-bold);
+  font-weight: bold;
+  font-size: 15px;
+  color: var(--white);
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.whyme-vision {
+  padding: 20px;
+  border: 2px solid var(--gold);
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.whyme-signup {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.whyme-signup-text {
+  font-family: var(--font-helvetica-bold);
+  font-weight: bold;
+  font-size: 14px;
+  color: var(--white);
+}
+
+@media (max-width: 600px) {
+  .whyme {
+    padding: 16px 0;
+  }
+
+  .whyme-heading {
+    font-size: 18px;
+  }
+
+  .whyme-section {
+    padding: 12px;
+  }
+
+  .whyme-pillar {
+    font-size: 24px;
+  }
+
+  .whyme-text {
+    font-size: 14px;
+  }
+}
