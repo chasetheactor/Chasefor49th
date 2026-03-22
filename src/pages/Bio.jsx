@@ -1,7 +1,10 @@
 import './Bio.css'
 import juniorImg from '../assets/mister-junior.jpg'
+import royalCourtImg from '../assets/royal-court.jpg'
 import tuxedoImg from '../assets/tuxedo.jpg'
 import flyerImg from '../assets/flyer.jpg'
+import sophPresImg from '../assets/sophomore-president.jpg'
+import alphaImg from '../assets/alpha-photo.jpg'
 
 const sections = [
   {
@@ -9,13 +12,15 @@ const sections = [
     text: "I am Chase Moore, a third-year Business Administration major with a minor in Film Studies from the City of Angels, Los Angeles, California. During my time at Fisk University, I have taken on various leadership roles that have deepened my passion for community service, student engagement, and advocacy. These experiences have shaped my commitment to creating meaningful opportunities for others while building impactful experiences on campus. I aspire to become an entertainment executive, producing films, television, and live events that resonate with diverse audiences and leave a lasting impact.",
   },
   {
-    image: juniorImg,
+    image: royalCourtImg,
     text: "As a Resident Assistant in New Livingstone Hall and Crosthwaite Hall, I have fostered a strong sense of community through both active and passive programming initiatives designed to engage and support residents.",
   },
   {
+    image: sophPresImg,
     text: "At the beginning of the 2025 school year, I began my term as Sophomore Class President. In this role, I established the class GroupMe to improve communication, led the development of the class logo and catchphrase, and organized multiple events and initiatives to enhance class engagement and unity (TWO-SEV!)",
   },
   {
+    image: alphaImg,
     text: "In Fall 2024, I was initiated into the Alpha Chi Chapter of Alpha Phi Alpha Fraternity, Inc., where I currently serve as Secretary and Head of Events. In this role, I lead the planning and execution of programming aligned with our chapter's annual goals, while also overseeing our social media strategy. I spearheaded initiatives such as the \"Black History Month Fact of the Week\" campaign, which reached over 15,000 viewers and expanded our digital engagement.",
   },
   {
